@@ -1,0 +1,35 @@
+{
+  "ids": {
+    "User": 3,
+    "AccessToken": 3,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "Product": 5,
+    "Category": 5
+  },
+  "models": {
+    "User": {
+      "1": "{\"password\":\"$2a$10$0l2/9JPSiR/.guTLtgaMFOpdrkTX/7SZ.l8jHW8fr0pD4iwa0XU/K\",\"email\":\"djheru@gmail.com\",\"id\":1}",
+      "2": "{\"password\":\"$2a$10$d/uSezzGNePfg4S/Ph8seOVWOTxvhSWVuZSEzYJXK47vC1Onl3FXW\",\"email\":\"admin@example.com\",\"id\":2}"
+    },
+    "AccessToken": {
+      "Suk7R12cjkYN6kievv6ajSXfRdKVpRb3AHmsCnZr7hDwqpLAK9SF6UFYEnRXPKc1": "{\"id\":\"Suk7R12cjkYN6kievv6ajSXfRdKVpRb3AHmsCnZr7hDwqpLAK9SF6UFYEnRXPKc1\",\"ttl\":1209600,\"created\":\"2017-06-25T03:29:32.174Z\",\"userId\":1}",
+      "secretpw": "{\"id\":\"secretpw\",\"userId\":2}"
+    },
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "Product": {
+      "1": "{\"name\":\"coffee\",\"price\":3,\"id\":1,\"categoryId\":1}",
+      "3": "{\"name\":\"tea\",\"price\":100,\"categoryId\":1,\"id\":3}",
+      "4": "{\"name\":\"drank\",\"price\":100,\"categoryId\":2,\"id\":4}"
+    },
+    "Category": {
+      "1": "{\"name\":\"dranks\",\"id\":1}",
+      "2": "{\"name\":\"some cool shit\",\"id\":2}",
+      "3": "{\"name\":\"lolohai\",\"id\":3}",
+      "4": "{\"name\":\"acat\",\"id\":4}"
+    }
+  }
+}
